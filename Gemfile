@@ -52,6 +52,8 @@ group :test do
   gem 'webdrivers'
 end
 
+gem 'cloudinary', require: true
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'solidus', github: 'solidusio/solidus', branch: 'master'
