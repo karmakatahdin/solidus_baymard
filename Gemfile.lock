@@ -195,6 +195,7 @@ GEM
       execjs (~> 2.0)
       sprockets (>= 2.0.0)
       tilt (>= 1.2)
+    honeybadger (4.9.0)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
     image_processing (1.12.1)
@@ -386,6 +387,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
   capybara (>= 3.26)
+  honeybadger (~> 4.0)
   jbuilder (~> 2.7)
   listen (~> 3.3)
   pg (~> 1.1)

@@ -56,3 +56,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'solidus', github: 'solidusio/solidus', branch: 'master'
 gem 'solidus_auth_devise'
+gem 'honeybadger', '~> 4.0'
